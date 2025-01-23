@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            background-color: yellow;
+        }
+        @media screen and (min-width: 768px) and (max-width: 1023px){
+            .container{
+                background-color: brown;
+            }
+        }
+        @media screen and (min-width:1024px){
+            .container{
+                background-color: aqua;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container adaptive">
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe quos rem nihil quod neque eius, ex eos. Nisi iure, aliquid architecto odio iste quo aut laborum mollitia necessitatibus expedita praesentium.
+        </p>
+    </div>
+    <div class="container responsive">
+        <p> 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias facere, blanditiis libero minus veniam vel excepturi, sunt inventore praesentium, nesciunt tenetur maxime suscipit saepe in adipisci! Natus deserunt dolorum explicabo.
+        </p>
+    </div>
+</body>
+</html>
